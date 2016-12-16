@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BBE23651E01194600E7764E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE23641E01194600E7764E /* main.m */; };
-		2BBE23681E01194600E7764E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE23671E01194600E7764E /* AppDelegate.m */; };
-		2BBE236B1E01194600E7764E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE236A1E01194600E7764E /* ViewController.m */; };
-		2BBE236E1E01194600E7764E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBE236C1E01194600E7764E /* Main.storyboard */; };
-		2BBE23701E01194600E7764E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBE236F1E01194600E7764E /* Assets.xcassets */; };
-		2BBE23731E01194600E7764E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBE23711E01194600E7764E /* LaunchScreen.storyboard */; };
 		2BBE237E1E01194600E7764E /* TJVersionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE237D1E01194600E7764E /* TJVersionTests.m */; };
 		2BBE23891E01194600E7764E /* TJVersionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE23881E01194600E7764E /* TJVersionUITests.m */; };
+		2BBE23B31E014B2800E7764E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE23A11E014B2800E7764E /* AppDelegate.m */; };
+		2BBE23B41E014B2800E7764E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBE23A21E014B2800E7764E /* Assets.xcassets */; };
+		2BBE23B51E014B2800E7764E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBE23A41E014B2800E7764E /* LaunchScreen.storyboard */; };
+		2BBE23B61E014B2800E7764E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBE23A61E014B2800E7764E /* Main.storyboard */; };
+		2BBE23B71E014B2800E7764E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BBE23A81E014B2800E7764E /* Info.plist */; };
+		2BBE23B81E014B2800E7764E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE23A91E014B2800E7764E /* main.m */; };
+		2BBE23B91E014B2800E7764E /* TJAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE23AC1E014B2800E7764E /* TJAppInfo.m */; };
+		2BBE23BA1E014B2800E7764E /* TJVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE23AE1E014B2800E7764E /* TJVersion.m */; };
+		2BBE23BB1E014B2800E7764E /* TJVersionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE23B01E014B2800E7764E /* TJVersionRequest.m */; };
+		2BBE23BC1E014B2800E7764E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE23B21E014B2800E7764E /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +40,27 @@
 
 /* Begin PBXFileReference section */
 		2BBE23601E01194600E7764E /* TJVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TJVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BBE23641E01194600E7764E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2BBE23661E01194600E7764E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2BBE23671E01194600E7764E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2BBE23691E01194600E7764E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2BBE236A1E01194600E7764E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2BBE236D1E01194600E7764E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2BBE236F1E01194600E7764E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2BBE23721E01194600E7764E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2BBE23741E01194600E7764E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BBE23791E01194600E7764E /* TJVersionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TJVersionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBE237D1E01194600E7764E /* TJVersionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJVersionTests.m; sourceTree = "<group>"; };
 		2BBE237F1E01194600E7764E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BBE23841E01194600E7764E /* TJVersionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TJVersionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBE23881E01194600E7764E /* TJVersionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJVersionUITests.m; sourceTree = "<group>"; };
 		2BBE238A1E01194600E7764E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BBE23A01E014B2800E7764E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TJVersion/AppDelegate.h; sourceTree = "<group>"; };
+		2BBE23A11E014B2800E7764E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TJVersion/AppDelegate.m; sourceTree = "<group>"; };
+		2BBE23A21E014B2800E7764E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TJVersion/Assets.xcassets; sourceTree = "<group>"; };
+		2BBE23A51E014B2800E7764E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BBE23A71E014B2800E7764E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		2BBE23A81E014B2800E7764E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TJVersion/Info.plist; sourceTree = "<group>"; };
+		2BBE23A91E014B2800E7764E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TJVersion/main.m; sourceTree = "<group>"; };
+		2BBE23AB1E014B2800E7764E /* TJAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJAppInfo.h; sourceTree = "<group>"; };
+		2BBE23AC1E014B2800E7764E /* TJAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJAppInfo.m; sourceTree = "<group>"; };
+		2BBE23AD1E014B2800E7764E /* TJVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJVersion.h; sourceTree = "<group>"; };
+		2BBE23AE1E014B2800E7764E /* TJVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJVersion.m; sourceTree = "<group>"; };
+		2BBE23AF1E014B2800E7764E /* TJVersionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJVersionRequest.h; sourceTree = "<group>"; };
+		2BBE23B01E014B2800E7764E /* TJVersionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJVersionRequest.m; sourceTree = "<group>"; };
+		2BBE23B11E014B2800E7764E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = TJVersion/ViewController.h; sourceTree = "<group>"; };
+		2BBE23B21E014B2800E7764E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = TJVersion/ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +91,15 @@
 		2BBE23571E01194600E7764E = {
 			isa = PBXGroup;
 			children = (
-				2BBE23621E01194600E7764E /* TJVersion */,
+				2BBE23AA1E014B2800E7764E /* TJVersion */,
+				2BBE23A01E014B2800E7764E /* AppDelegate.h */,
+				2BBE23A11E014B2800E7764E /* AppDelegate.m */,
+				2BBE23B11E014B2800E7764E /* ViewController.h */,
+				2BBE23B21E014B2800E7764E /* ViewController.m */,
+				2BBE23A21E014B2800E7764E /* Assets.xcassets */,
+				2BBE23A81E014B2800E7764E /* Info.plist */,
+				2BBE23A91E014B2800E7764E /* main.m */,
+				2BBE23A31E014B2800E7764E /* Base.lproj */,
 				2BBE237C1E01194600E7764E /* TJVersionTests */,
 				2BBE23871E01194600E7764E /* TJVersionUITests */,
 				2BBE23611E01194600E7764E /* Products */,
@@ -96,30 +114,6 @@
 				2BBE23841E01194600E7764E /* TJVersionUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		2BBE23621E01194600E7764E /* TJVersion */ = {
-			isa = PBXGroup;
-			children = (
-				2BBE23661E01194600E7764E /* AppDelegate.h */,
-				2BBE23671E01194600E7764E /* AppDelegate.m */,
-				2BBE23691E01194600E7764E /* ViewController.h */,
-				2BBE236A1E01194600E7764E /* ViewController.m */,
-				2BBE236C1E01194600E7764E /* Main.storyboard */,
-				2BBE236F1E01194600E7764E /* Assets.xcassets */,
-				2BBE23711E01194600E7764E /* LaunchScreen.storyboard */,
-				2BBE23741E01194600E7764E /* Info.plist */,
-				2BBE23631E01194600E7764E /* Supporting Files */,
-			);
-			path = TJVersion;
-			sourceTree = "<group>";
-		};
-		2BBE23631E01194600E7764E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2BBE23641E01194600E7764E /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		2BBE237C1E01194600E7764E /* TJVersionTests */ = {
@@ -138,6 +132,30 @@
 				2BBE238A1E01194600E7764E /* Info.plist */,
 			);
 			path = TJVersionUITests;
+			sourceTree = "<group>";
+		};
+		2BBE23A31E014B2800E7764E /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				2BBE23A41E014B2800E7764E /* LaunchScreen.storyboard */,
+				2BBE23A61E014B2800E7764E /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = TJVersion/Base.lproj;
+			sourceTree = "<group>";
+		};
+		2BBE23AA1E014B2800E7764E /* TJVersion */ = {
+			isa = PBXGroup;
+			children = (
+				2BBE23AB1E014B2800E7764E /* TJAppInfo.h */,
+				2BBE23AC1E014B2800E7764E /* TJAppInfo.m */,
+				2BBE23AD1E014B2800E7764E /* TJVersion.h */,
+				2BBE23AE1E014B2800E7764E /* TJVersion.m */,
+				2BBE23AF1E014B2800E7764E /* TJVersionRequest.h */,
+				2BBE23B01E014B2800E7764E /* TJVersionRequest.m */,
+			);
+			name = TJVersion;
+			path = TJVersion/TJVersion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +267,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BBE23731E01194600E7764E /* LaunchScreen.storyboard in Resources */,
-				2BBE23701E01194600E7764E /* Assets.xcassets in Resources */,
-				2BBE236E1E01194600E7764E /* Main.storyboard in Resources */,
+				2BBE23B71E014B2800E7764E /* Info.plist in Resources */,
+				2BBE23B61E014B2800E7764E /* Main.storyboard in Resources */,
+				2BBE23B41E014B2800E7764E /* Assets.xcassets in Resources */,
+				2BBE23B51E014B2800E7764E /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BBE236B1E01194600E7764E /* ViewController.m in Sources */,
-				2BBE23681E01194600E7764E /* AppDelegate.m in Sources */,
-				2BBE23651E01194600E7764E /* main.m in Sources */,
+				2BBE23BC1E014B2800E7764E /* ViewController.m in Sources */,
+				2BBE23B81E014B2800E7764E /* main.m in Sources */,
+				2BBE23B31E014B2800E7764E /* AppDelegate.m in Sources */,
+				2BBE23BA1E014B2800E7764E /* TJVersion.m in Sources */,
+				2BBE23B91E014B2800E7764E /* TJAppInfo.m in Sources */,
+				2BBE23BB1E014B2800E7764E /* TJVersionRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,20 +336,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2BBE236C1E01194600E7764E /* Main.storyboard */ = {
+		2BBE23A41E014B2800E7764E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2BBE236D1E01194600E7764E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2BBE23711E01194600E7764E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2BBE23721E01194600E7764E /* Base */,
+				2BBE23A51E014B2800E7764E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2BBE23A61E014B2800E7764E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BBE23A71E014B2800E7764E /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -516,6 +538,7 @@
 				2BBE238F1E01194600E7764E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BBE23901E01194600E7764E /* Build configuration list for PBXNativeTarget "TJVersionTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +547,7 @@
 				2BBE23921E01194600E7764E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BBE23931E01194600E7764E /* Build configuration list for PBXNativeTarget "TJVersionUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +556,7 @@
 				2BBE23951E01194600E7764E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
