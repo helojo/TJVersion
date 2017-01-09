@@ -14,7 +14,7 @@
     
     NSDictionary *infoDict = [[NSBundle mainBundle] infoDictionary];
     NSString *bundleId = infoDict[@"CFBundleIdentifier"];
-    bundleId = @"com.linkedtech.joyRunner";
+//    bundleId = @"com.linkedtech.joyRunner";
     NSURL *URL = [NSURL URLWithString:[NSString stringWithFormat:@"http://itunes.apple.com/lookup?bundleId=%@",bundleId]];
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
