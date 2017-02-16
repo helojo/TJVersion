@@ -21,8 +21,12 @@
     self.title = @"版本检测";
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
-    btn.frame = CGRectMake(100, 100, 100, 100);
+    btn.frame = CGRectMake(0, 0, 100, 50);
+    btn.center = self.view.center;
     [btn setTitle:@"版本检测" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    btn.titleLabel.font = [UIFont boldSystemFontOfSize:20.f];
+    [btn setBackgroundColor:[[UIColor blackColor] colorWithAlphaComponent:0.8]];
     [self.view addSubview:btn];
     
     [btn addTarget:self action:@selector(check:) forControlEvents:UIControlEventTouchUpInside];
