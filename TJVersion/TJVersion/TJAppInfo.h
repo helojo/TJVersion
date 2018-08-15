@@ -10,6 +10,9 @@
 
 @interface TJAppInfo : NSObject
 
+//是否发布
+@property (nonatomic, strong) NSString *resultCount;
+
 //版本号
 @property (nonatomic, copy) NSString *version;
 

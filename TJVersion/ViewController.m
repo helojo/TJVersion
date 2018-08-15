@@ -43,9 +43,15 @@
         
         //appInfo为新版本在AppStore相关信息
         //请在此处自定义您的提示框
-        NSLog(@"新版本信息:\n 版本号 = %@ \n 更新时间 = %@\n 更新日志 = %@ \n 在AppStore中链接 = %@\n AppId = %@ \n bundleId = %@" ,appInfo.version,appInfo.currentVersionReleaseDate,appInfo.releaseNotes,appInfo.trackViewUrl,appInfo.trackId,appInfo.bundleId);
-        //应用内打开appStore
-        [TJVersion openInStoreProductViewControllerForAppId:appInfo.trackId];
+        if ([appInfo.resultCount intValue] == 1) {
+            NSLog(@"新版本信息:\n 版本号 = %@ \n 更新时间 = %@\n 更新日志 = %@ \n 在AppStore中链接 = %@\n AppId = %@ \n bundleId = %@" ,appInfo.version,appInfo.currentVersionReleaseDate,appInfo.releaseNotes,appInfo.trackViewUrl,appInfo.trackId,appInfo.bundleId);
+            
+            //应用内打开appStore
+            [TJVersion openInStoreProductViewControllerForAppId:appInfo.trackId];
+        }else {
+            NSLog(@"应用未发布");
+        }
+        
     }];
 }
 

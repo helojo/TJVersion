@@ -21,12 +21,13 @@
         
         NSURLRequest *request = [NSURLRequest requestWithURL:URL];
         NSURLSessionDataTask *dataTask = [[NSURLSession sharedSession] dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-            
+//            NSLog(@"response = %@",response);
             dispatch_async(dispatch_get_main_queue(), ^{
                 
                 if (!error) {
                     NSDictionary *responseDict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:nil];
                     if (success) {
+//                        NSLog(@"responseDict = %@",responseDict);
                         success(responseDict);
                     }
                 }else {

@@ -14,10 +14,9 @@
     
     self = [super init];
     if (self) {
-        
         self.version = result[@"version"];
         self.releaseNotes = result[@"releaseNotes"];
-        self.currentVersionReleaseDate = result[@"currentViersionReleaseDate"];
+        self.currentVersionReleaseDate = result[@"currentVersionReleaseDate"];
         self.trackId = result[@"trackId"];
         self.bundleId = result[@"bundleId"];
         self.trackViewUrl = result[@"trackViewUrl"];
